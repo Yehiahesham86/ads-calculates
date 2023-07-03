@@ -204,7 +204,7 @@ country_lst=['Svalbard & Jan Mayen Islands', 'Singapore', 'Guadeloupe',
 def user_input_features():
     gender = st.sidebar.selectbox("Gender",('Male', 'Female'))
     country = st.sidebar.selectbox('Petal width',(country_lst))
-    daily_time_spent_on_site = st.sidebar.slider("Daily Time Spent on Site", 10, 500, 50)
+    daily_time_spent_on_site = st.sidebar.slider("Daily Time Spent on Site", 10, 100, 50)
     age = st.sidebar.slider("Age", 5, 80, 30)
     area_income = st.sidebar.slider("Area Income", 1000, 100_000, 50_000)
     daily_internet_usage = st.sidebar.slider("Daily Internet Usage", 50,1000, 500)
