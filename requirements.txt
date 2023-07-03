@@ -1,2 +1,7 @@
+category_encoders==2.6.0
+matplotlib==3.7.0
+pandas==1.5.3
 plotly==5.9.0
-
+scikit_learn==1.2.1
+streamlit==1.24.0
+yfinance==0.2.22
