@@ -5,9 +5,7 @@
 
 
 import pandas as pd
-import plotly.graph_objects as go
 import plotly.express as px
-import plotly.io as pio
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
